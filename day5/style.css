@@ -1,0 +1,44 @@
+h1{
+    color:blueviolet;
+}
+
+table{
+    width: 100%;
+    border-collapse:collapse ;
+}
+
+th,td{
+    border:1px solid green;
+    padding:8px;
+    text-align:center;
+}
+
+nav{
+    display:flex;
+    justify-content:space-around;
+    background-color:black;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:name;
+    padding:14px 20px;
+    display:black;
+}
+
+nav a:hover{
+    background-color:gray
+}
+
+@media (max-width: 600px){
+    nav{ 
+        flex-direction:column;
+        align-items:center;
+        gap:10px;
+    }
+
+    nav a{
+        margin-bottom:10px;
+    }
+}
